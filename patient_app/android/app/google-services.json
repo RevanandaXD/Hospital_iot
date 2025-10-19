@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "868460220661",
+    "firebase_url": "https://hospital-iot-d3416-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hospital-iot-d3416",
+    "storage_bucket": "hospital-iot-d3416.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868460220661:android:a06f91215b3bdcb398b5bc",
+        "android_client_info": {
+          "package_name": "com.example.nurse_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBujcZ2HTksSPqFuwVZvNOT7vwkXsEDFrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868460220661:android:30db8cdb4d248e1798b5bc",
+        "android_client_info": {
+          "package_name": "com.example.patient_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBujcZ2HTksSPqFuwVZvNOT7vwkXsEDFrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
