@@ -97,8 +97,7 @@ class _PatientHomePageState extends State<PatientHomePage>
           'name': defaultName,
           'room': defaultRoom,
           'status': 0,
-          'message': '',
-          'timestamp': null,
+          'pesan': '',
         });
         
         if (!mounted) return;
@@ -158,8 +157,7 @@ class _PatientHomePageState extends State<PatientHomePage>
     try {
       await _dbRef.child('patients/${widget.patientId}').update({
         'status': 1,
-        'message': '$patientName Membutuhkan Bantuan',
-        'timestamp': ServerValue.timestamp,
+        'pesan': '$patientName Membutuhkan Bantuan',
       });
 
       if (!mounted) return;
@@ -192,8 +190,7 @@ class _PatientHomePageState extends State<PatientHomePage>
     try {
       await _dbRef.child('patients/${widget.patientId}').update({
         'status': 0,
-        'message': '',
-        'timestamp': null,
+        'pesan': '',
       });
 
       if (!mounted) return;
